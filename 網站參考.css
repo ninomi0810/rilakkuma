@@ -1,0 +1,506 @@
+body {
+  background-color: #FDF6F0;
+  width: 100%;
+}
+body .area {
+  width: 100%;
+}
+body .header {
+  height: 10vh;
+  background-color: #fbd9db;
+  display: flex;
+  position: fixed;
+  position: relative;
+  top: 0px;
+  z-index: 3;
+}
+body .header .headerarea {
+  height: 100%;
+}
+body .header .mypage {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+body .header .mypage a {
+  text-decoration: none;
+  color: #392c13;
+}
+body .header .mypage img {
+  width: 45px;
+  height: 30px;
+}
+body .header .banner {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 15%;
+}
+body .header .banner img {
+  height: 76.09px;
+}
+body .header .search {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 85%;
+}
+body .header .search img {
+  width: 50px;
+  height: 50px;
+}
+body .header .shopBox {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 92%;
+}
+body .header .shopBox img {
+  width: 55px;
+  height: 55px;
+}
+body .carousel {
+  margin-top: 30px;
+  width: 100%;
+  height: 70vh;
+  margin-bottom: 30px;
+}
+body .carousel button {
+  color: #392c13;
+}
+body .carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+body .carousel .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body .carousel .carousel-inner .carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+body .sub {
+  height: 27vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+body .sub .subarea {
+  margin-left: 3%;
+  margin-right: 3%;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+body .sub .subarea:hover {
+  opacity: 0.5;
+  max-height: 110%;
+  max-width: 110%;
+  width: auto;
+  height: auto;
+}
+body .sub .subarea span {
+  color: #6e4343;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  right: 10%;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+body .forth {
+  height: 60vh;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+body .forth .left {
+  width: 60%;
+  height: 100%;
+}
+body .forth .left .news {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body .forth .left .news span {
+  letter-spacing: 0.8px;
+  font-family: system-ui;
+  color: rgb(127, 106, 70);
+  -webkit-text-decoration: underline 5px #fbd9db;
+          text-decoration: underline 5px #fbd9db;
+}
+body .forth .left .news::before {
+  content: "";
+  width: 148px;
+  height: 25px;
+  background-image: url(https://rilakkuma-tomonokai.jp/assets/rilakkuma/title/line-470bbe08a8133c060c6c876e3a5d1c32.png);
+  position: absolute;
+  left: 327px;
+  top: 940px;
+}
+body .forth .left .newsDetail {
+  width: 100%;
+  height: 75%;
+}
+body .forth .left .newsDetail ul {
+  list-style: none;
+  padding-inline-start: 20px;
+}
+body .forth .left .newsDetail ul li {
+  width: 95%;
+  height: 30%;
+  margin-bottom: 10px;
+  letter-spacing: 0.8px;
+  font-family: system-ui;
+}
+body .forth .left .newsDetail ul li .date {
+  margin: 0px;
+  margin-bottom: 8px;
+  color: #7e715a;
+}
+body .forth .left .newsDetail ul li .title {
+  margin: 0px;
+  color: #392c13;
+  letter-spacing: 3px;
+}
+body .forth .left .newsDetail ul li a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration: 5px #6e4343;
+          text-decoration: 5px #6e4343;
+}
+body .forth .left .more {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+body .forth .left .more .morebtn {
+  width: 20%;
+  height: 80%;
+  background: #fbd9db;
+  color: #ffffff;
+  border-radius: 5%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 6px;
+  font-family: system-ui;
+  font-weight: 900;
+}
+body .forth .left .more .morebtn:hover {
+  opacity: 0.5;
+  background-color: #7e715a;
+}
+body .forth .right {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+body .forth .right ul {
+  list-style: none;
+  padding: 0px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .forth .right ul li {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background-color: #fbd9db;
+}
+body .forth .right ul li:hover {
+  opacity: 0.5;
+  background-color: #7e715a;
+}
+body .forth .right ul li img {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+body .forth .right ul li .youtube {
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  top: 22px;
+  left: 14px;
+}
+body .forth .right iframe {
+  width: 92%;
+  height: 62%;
+  margin-top: 15px;
+  max-height: 100%;
+  max-width: 100%;
+}
+body .charcter2 {
+  height: 761px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+}
+body .charcter2::before {
+  background-image: url(https://rilakkuma-tomonokai.jp/assets/rilakkuma/title/list-icon-817b74df57ad9ac81165930ae7919fef.png);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+body .charcter2 .imgss {
+  width: 531px;
+  height: 761px;
+  border-radius: 27px;
+  position: absolute;
+  right: 10%;
+}
+body .charcter2 .btn {
+  width: 30%;
+  height: 23%;
+  background-color: #fbd9db;
+  color: #392c13;
+  border: none;
+  margin-bottom: 19px;
+  border-radius: 10px;
+  position: absolute;
+  left: 10%;
+}
+body .charcter2 .btn .title {
+  font-weight: bolder;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+body .charcter2 .btn img {
+  border: 1px solid #fbd9db;
+  border-radius: 50px;
+}
+body .charcter2 .btn:hover {
+  background-color: #eca7ac;
+  color: #ffffff;
+}
+body .charcter2 .korila {
+  position: absolute;
+  top: 25%;
+}
+body .charcter2 .kiri {
+  position: absolute;
+  top: 50%;
+}
+body .charcter2 .kiri:active .kiriimg {
+  z-index: 4;
+}
+body .charcter2 .chairo {
+  position: absolute;
+  top: 75%;
+}
+body .charcter2 .imgs {
+  width: 531px;
+  height: 761px;
+  border-radius: 27px;
+  position: absolute;
+  right: 10%;
+  opacity: 0;
+}
+body .charcter2 .imgs img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 27px;
+}
+body .charcter2 .koriimg {
+  opacity: 1;
+}
+body .product {
+  width: 100%;
+  height: 23%;
+  margin-bottom: 60px;
+}
+body .product .produce {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+body .product .produce span {
+  letter-spacing: 0.8px;
+  font-weight: 900;
+  font-family: system-ui;
+  color: rgb(127, 106, 70);
+  -webkit-text-decoration: underline 5px #fbd9db;
+          text-decoration: underline 5px #fbd9db;
+}
+body .product .produce::before {
+  content: "";
+  width: 148px;
+  height: 25px;
+  background-image: url(https://rilakkuma-tomonokai.jp/assets/rilakkuma/title/line-470bbe08a8133c060c6c876e3a5d1c32.png);
+  position: absolute;
+  left: 600px;
+  bottom: 50px;
+}
+body .product .cards {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .product .cards .card {
+  width: 19%;
+  height: 100%;
+  background-color: #fbd9db;
+  margin-left: 12.5px;
+}
+body .product .cards .card h5 {
+  font-weight: 600;
+  color: #392c13;
+}
+body .product .cards .card .card-text {
+  color: #392c13;
+}
+body .product .cards .card img {
+  width: 95%;
+  height: 90%;
+  margin-left: 5.5px;
+  margin-top: 5px;
+}
+body .product .cards .card a {
+  background-color: #7e715a;
+  border: none;
+}
+body .product .cards .card a:hover {
+  background-color: #eca7ac;
+  opacity: 0.6;
+}
+body .footer {
+  height: 10vh;
+  background-color: #fbd9db;
+  display: flex;
+}
+body .footer .sanx {
+  width: 30%;
+  position: relative;
+}
+body .footer .sanx img {
+  width: 176px;
+  height: 56px;
+  position: absolute;
+  top: 15%;
+}
+body .footer .reserve {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+  font-family: system-ui;
+  color: #392c13;
+}
+body .icon {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 80px;
+  right: 4px;
+  display: flex;
+  text-decoration: none;
+}
+body .icon .fa-arrow-up {
+  font-size: 35px;
+  color: #7e715a;
+  z-index: 4;
+}
+body .underballoon {
+  height: 10px;
+  position: relative;
+}
+body .underballoon .red {
+  bottom: 650px;
+  left: 20px;
+  width: 52px;
+  height: 64px;
+}
+body .underballoon .red2 {
+  bottom: 900px;
+  left: 600px;
+  width: 42px;
+  height: 127px;
+}
+body .underballoon .red3 {
+  bottom: 1380px;
+  left: 325px;
+  width: 30px;
+  height: 48px;
+}
+body .underballoon .red4 {
+  top: 15px;
+  right: 530px;
+  width: 26px;
+  height: 35px;
+  z-index: 4;
+}
+body .underballoon .red5 {
+  bottom: 1900px;
+  left: 60px;
+  width: 62px;
+  height: 71px;
+}
+body .underballoon .red6 {
+  bottom: 200px;
+  right: 20px;
+  width: 125px;
+  height: 191px;
+}
+body .underballoon .fadein {
+  position: absolute;
+  animation-name: underballoon;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes underballoon {
+  0% {
+    transform: rotate(0deg) translateY(0%);
+  }
+  50% {
+    transform: rotate(1deg) translateY(-12%);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0%);
+  }
+}
+body .gif {
+  position: relative;
+  z-index: 4;
+}
+body .gif .kogif {
+  position: absolute;
+  bottom: 1484px;
+  right: 150px;
+}/*# sourceMappingURL=網站參考.css.map */
